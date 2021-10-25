@@ -1,0 +1,81 @@
+.bannerWithPlans{width:100%;float:left;background:linear-gradient(212.99deg, #7ad2f9 20.54%, #2d97e8 105.65%);margin-top:110px;padding:0 0 100px 0;}
+.innerBann{width:1135px;margin:auto;display:block;}
+.bannDtl{width:920px;margin:30px auto;}
+.bannDtl > .banLogoImg{width:100%;display:inline-block;text-align:center;}
+.bannDtl > .banLogoImg svg{width:75px;margin:30px 0 0 0;}
+.bannDtl h2{text-align:center;font-size:28px;color:#fff;text-transform:uppercase;margin:20px 0 0 0;}
+.bannDtl p{text-align:center;font-size:21px;color:#fff;font-weight:600;margin:30px 0 0 0;}
+.bannDtl span{display:block;text-align:center;font-style:italic;color:#fff;margin:10px 0 0 0;}
+
+
+.mainPlanBox{width:74%;margin:40px auto;display:block;}
+.innerPlans{width:100%;float:left;display:grid;grid-template-columns:24% 19% 19% 19% 19%;background:#fff;}
+.planList{display:block;padding:15px;border-right:1px solid #ccc;}
+.innerPlans .planList:last-child{border-right:none;}
+.planOffer{height:140px;display:grid;text-align:center;align-items:flex-end;}
+.planTitle{font-size:20px;color:#40a4f1;text-align:center;font-weight:900;margin-top:30px;}
+.mainPlanBtn{align-items:center;}
+.feturePlan{display:block;}
+.feturePlan{width:100%;display:grid;grid-template-columns:1fr 1fr;grid-gap:10px; border:1px solid #ccc;border-radius:4px;padding:7px;}
+.feturePlan button{padding:8px;border:none;background:none;font-size:13px;color:#999;font-weight:600;cursor:pointer;border-radius:5px;}
+.feturePlan button.activPlan{background:#40a4f1;color:#fff;}
+.titleWithPrice{min-height:42px;display:flex;align-items:center;justify-content:center;color:#4a4a4a;font-size:24px;margin-top:10px;}
+.titleWithPrice span{font-size:18px;margin-right:3px;}
+.titleFree,.titleGrowth{min-height:42px;font-size:32px;color:#bababa;text-transform:uppercase;margin-top:10px;display:flex;align-items:center;justify-content:center;}
+.offerBuy{font-size:14px;line-height:16px;}
+.planBtn{width:auto;height:34px;display:block;padding:8px 12px;margin:15px auto 0 auto;border:none;white-space:nowrap; cursor:pointer; font-size:14px;text-decoration:none;background-color:#ffde00;text-transform:uppercase;color:#4a4a4a;border-radius:3px;font-weight:600;transition:all 0.3s ease;}
+.txtColor{color:#4a4a4a !important;}
+.planBtn:hover{transform:scale(1.05);box-shadow:0 10px 10px -10px #999;}
+.btnExtraSize{position:relative;}
+.btnExtraSize:before{content:'';width:100%;height:15px;display:block;background:#fff;border-radius:0 0 10px 10px;position:absolute;bottom:-15px;left:0;}
+
+.headOfAllOffer{width:100%;float:left;}
+.headOfAllOffer h2{font-size:22px;background:#fcefa4;color:#4a4a4a;padding:14px 24px;}
+.planDtlTitle{font-size:15px;font-weight:500;color:#4A4A4A;}
+.titleWithStarNdBeta{display:flex;white-space:nowrap;gap:5px;}
+.titleWithStarNdBeta img{width:20px;}
+.titleWithStarNdBeta span{color:#128be9;}
+.checkIcon,.closeIcon{display:flex; align-items:center; justify-content:center;}    
+.checkIcon img{width:24px;}   
+.closeIcon img{width:17px;}
+.checkIcon h4, .closeIcon h4{font-size:15px;font-weight:400;color:#9B9B9B;font-style:italic;}
+.mainPlanView > .innerPlans{border-bottom:1px solid #ccc;}
+.mainPlanView > .innerPlans:last-child{border-bottom:none;}
+.mainPlanView > .innerPlans:nth-child(odd){background-color:#fff;}
+.mainPlanView > .innerPlans:nth-child(even){background-color:#f9f9f9;}
+.starBetaPlan{box-shadow:0px 2px 10px rgb(0 0 0 / 20%);background-color:#deefff !important;border:1px solid #128be9 !important;transform:scale(1.01);border-radius:5px;}
+.starBetaPlan > .planList{border:none;}
+
+.howCanStandBox{width:100%;float:left;display:block;padding:50px 15px;background:#ffde00;}
+.inerStandBox{width:690px;margin:auto;}
+.inerStandBox h2{font-size:24px;text-align:center;color:#4A4A4A;}
+.inerStandBox p{font-size:16px;margin-top:14px;text-align:center;color:#4A4A4A;line-height:24px;}
+
+.govShop__VisibilityNdRelation{width:100%;float:left;padding:50px 0;border-bottom:1px solid #ccc;}
+.innerGovShop__Relation{width:70%;margin:auto;display:block;}
+.innerGovShop__Relation h2{color:#4a4a4a;font:24px 'roboto';text-align:center;}
+.listOf__GovRelation{width:100%;float:left;display:grid;grid-template-columns:repeat(3, 1fr);grid-gap:60px; text-align:center;margin:50px 0 0 0;}
+.inerGovRelList{display:block;}
+.inerGovRelList h3 svg{height:38px;}
+.inerGovRelList p{color:#4a4a4a;margin:10px 0 0 0;font:16px 'roboto';line-height:24px;}
+
+.brandImageBox{width:100%;float:left;display:flex;flex-wrap:wrap;gap:50px; text-align:center;margin:50px 0 0 0;justify-content:center;}
+.brandImageBox img{height:50px;}
+
+.GobBuyerImg{align-items:center;}
+.GobBuyerImg img{width:auto;height:auto;max-height:100px;}
+
+.publicSector__business{width:100%;float:left;display:block;padding:50px 15px;background-repeat:no-repeat;background-size:cover;background-position:50% 50%;background-color:#40a4f1;}
+.inerPSB__box{width:540px;margin:auto;}
+.inerPSB__box h2{font-size:24px;text-align:center;color:#fff;}
+.inerPSB__box p{font-size:17px;margin-top:14px;text-align:center;color:#fff;line-height:24px;}
+.inerPSB__box a{width:150px;margin:24px auto 0 auto;text-align:center;}
+
+.feedBackOf__ContUs{width:100%;float:left;display:block;padding:80px 15px;background-repeat:no-repeat, no-repeat; background-position:left center, right center; background-size:contain; background-color:#07396e;}
+.inerFeed__box{width:540px;margin:auto;}
+.inerFeed__box h2{font-size:24px;text-align:center;color:#fff;font-weight:normal;}
+.inerFeed__box p{font-size:17px;margin-top:14px;text-align:center;color:#fff;line-height:24px;}
+.contBtnOf__Feedback{width:160px;margin:30px auto 0 auto;text-align:center;display:block;color:#fff;border:5px dotted #fff;padding:10px;text-decoration:none;font:16px 'roboto';font-weight:500;border-radius:10px;}
+
+
+

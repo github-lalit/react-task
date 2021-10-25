@@ -1,0 +1,46 @@
+.mainHead{width:100%;float:left;position:fixed;top:0;left:0;z-index:99;}
+.loginArea{width:100%;float:left;background:linear-gradient(180deg, rgba(48,80,152,0.6) 8.11%, rgba(48,80,152,0) 83.11%),#0A2765;padding:10px 0;}
+.logo__navBox{width:100%;float:left;background:linear-gradient(225deg, #4286F3 0%, #3060D3 100%),linear-gradient(180deg, rgba(48,80,152,0.6) 8.11%, rgba(48,80,152,0) 83.11%),#0A2765;padding:10px 0;}
+
+.inerLogin,.innerLogoNdNav{width:93%;margin:auto;display:flex;justify-content:space-between;align-items:center;}
+.login__SupportNdsocal{display:flex;gap:20px;align-items:center;}
+.topMnu{display:flex;gap:20px;}
+.topMnu > a{color:#fff;text-decoration:none;font-weight:600;font-size:14px;}
+.topSocialLink{width:auto;display:flex;gap:20px;align-items:flex-end;}
+.topSocialLink a{display:block;}
+.topSocialLink a img{height:16px;}
+.topSearchBox{width:220px;height:34px;display:inline-flex;position:relative;}
+.topSearchBox input{width:100%;border-radius:5px;border:none;outline:none;padding:10px 20px;background:#fff;}
+.topSearchBox > button{border:none;background:#fff;position:absolute;top:3px;right:0;padding:0 3px;border-radius:5px;}
+.topSearchBox > button img{height:28px;}
+
+.loginNdTryFreeBtn{display:flex;gap:20px;}
+.loginNdTryFreeBtn > button{padding:8px 16px;border:none;font-size:14px;font-weight:600;cursor:pointer;}
+.btnLogin{background:none;color:#fff;}
+.btnTryForFree{background:#ffde00;color:#4a4a4a;border-radius:3px;}
+
+.logoBox{width:auto;}
+.logoBox a{text-decoration:none;}
+.logoBox .header-logo{max-width:157px;display:grid;align-items:center;justify-content:center;grid-gap:3px;}
+.logoBox .icon{width:1em;height:1em;}
+.logoBox svg.icon-govshop-logo{font-size:28px;}
+.logoBox svg.icon-hero-title{font-size:90px;grid-row:1;grid-column:2;height:auto;}
+.logoBox .header-logo__text{font-size:9px;color:#ADB8C7;grid-row:2;grid-column:3/1;height:auto;font-family:'ProximaNova Bold', sans-serif;white-space:nowrap;}
+
+.mainMenu{width:auto;display:flex;justify-content:space-evenly;gap:40px;}
+.mainMenu ul{width:100%;float:left;}
+.mainMenu ul li.mnu__item{display:inline-block;position:relative;padding-left:30px;}
+.mainMenu ul li.mnu__item > a{color:#fff;text-decoration:none;}
+
+.mainMenu ul li.mnu__item .subMenu{min-width:240px;display:none;position:absolute;left:50%;transform:translate(-50%, 0);padding-top:20px;}
+.mainMenu ul li.mnu__item .subMenu ul{display:block;list-style:none;font-size:14px;background:#fff;padding:7px 12px;z-index:99;border-radius:5px;box-shadow:0 0 15px -5px #666;position:relative;transform:translateY(30px);transition:all 0.3s ease;}
+.subMenu ul li{width:100%;float:left;margin:2px 0;}
+.subMenu ul li a{width:100%;float:left;display:block;color:#000;text-decoration:none;padding:5px;white-space:nowrap;}
+.subMenu ul li a:hover{background:#f2f2f2;}
+.mainMenu ul li.mnu__item:hover .subMenu{display:block;}
+.mainMenu ul li.mnu__item:hover .subMenu ul{transform:translateY(0px);}
+.subMenu ul::before{content:'';width:0px;height:0px;border-left:12px solid transparent;border-right:12px solid transparent;border-bottom:12px solid #fff;position:absolute;top:-12px;left:50%;transform:translate(-50%, 0);}
+
+
+
+

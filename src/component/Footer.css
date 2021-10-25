@@ -1,0 +1,18 @@
+.mainFooter{width:100%;float:left;padding:40px 15px;background:#404040;}
+.inerFooter{width:1200px;margin:auto;display:block;}
+.footerMnuBox{width:100%;float:left;}
+
+.footerMnuBox .inerFootMnu{float:left;display:block;padding-right:40px;}
+.footerMnuBox .inerFootMnu h3{font-size:14px;color:#fff;text-transform:uppercase;margin-bottom:10px;}
+.footerMnuBox .inerFootMnu h3 span{font-weight:normal;text-transform:capitalize;}
+.footerMnuBox .inerFootMnu > ul{list-style:none;}
+.footerMnuBox .inerFootMnu > ul li{margin:5px 0 0 0;}
+.footerMnuBox .inerFootMnu > ul li a{color:#fff;font-size:13px;text-decoration:none;}
+.footerMnuBox .inerFootMnu:first-child{padding-right:10px;}
+.footerMnuBox .inerFootMnu:last-child{float:right;}
+.footerMnuBox .inerFootMnu:last-child ul li a{color:#40A4F1;}
+
+.copyRightFooter{width:100%;float:left;margin:30px 0 0 0;}
+.copyRightFooter p{font-size:12px;color:#fff;display:flex;gap:10px;}
+.copyRightFooter p span:first-child{color:#9b9b9b;}
+.copyRightFooter p a{color:#fff;text-decoration:none;}
